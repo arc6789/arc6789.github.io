@@ -1,0 +1,16 @@
+---
+bg: "map.jpg"
+layout: post
+title:  "Maps for Meetup"
+crawlertitle: "Locate your Meetup"
+summary: "This project maps the location of upcoming events for any particular Meetup group on a Mapbox map. Additionally also provides certain information like name, address, date and time of each event. The idea is to integrate this project into Girl Develop It - San Jose Chapter's website as well as to develop a widget that can be embeded for any website of any Meetup group."
+date: 2016-04-28 23:09:47 +0700
+categories: posts
+tags: 'jekyll'
+author: redVi
+link: Updates available soon...
+roles: Design and Development
+tools: Meetup's RESTful Api, Mapbox.js, CartoCSS (to stylize map), Bootstrap framework, GeoJSON
+---
+
+

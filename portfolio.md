@@ -1,8 +1,10 @@
 ---
 layout: page
-title: "Design"
+title: "Portfolio"
 crawlertitle: "Why and how this blog was created"
-permalink: /design/
+permalink: /work/
 summary: "About this blog"
-active: design
+active: index
 ---
+
+## Pysyco

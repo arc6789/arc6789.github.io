@@ -78,7 +78,7 @@ a {
   z-index: 100;
   width: 100%;
   top: 0;
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
 }
 
 
@@ -215,6 +215,10 @@ article {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+  }
+
+  .article_content {
+    font-size: 15px
   }
 
   &:after {

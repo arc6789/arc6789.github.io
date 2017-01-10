@@ -1,0 +1,16 @@
+---
+bg: "animated-website.png"
+layout: post
+title:  "Animated Express Website"
+summary: "This project contains data table that can be sorted in ascending and descending order by each category."
+date: 2016-11-28 23:09:47 +0700
+categories: posts
+tags: 'jekyll'
+author: redVi
+link: https://blooming-gorge-66083.herokuapp.com/
+roles: Design, Development
+tools: Tumblr Development Platform
+---
+
+Tumblr theme development in progress. All colors, fonts, backgrounds customizable. Code is open source.
+Code so far

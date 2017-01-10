@@ -1,0 +1,16 @@
+---
+bg: "angular-data-table.png"
+layout: post
+title:  "Angular Data Table"
+crawlertitle: "Tumblr Theme Design"
+summary: "This project contains data table that can be sorted in ascending and descending order by each category."
+date: 2016-09-28 23:09:47 +0700
+categories: posts
+tags: 'jekyll'
+author: redVi
+roles: Design, Development, Graphics
+tools: Tumblr Development Platform
+---
+
+Tumblr theme development in progress. All colors, fonts, backgrounds customizable. Code is open source.
+Code so far

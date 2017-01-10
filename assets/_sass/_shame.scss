@@ -1,0 +1,8 @@
+.article_img{float: left;}
+.index-page:nth-child(even) .article_img {
+	float: right !important;
+}
+
+/*.article_content:nth-child(even) {
+	float: left !important
+}*/
