@@ -1,8 +1,8 @@
-<header class="main-header content-wrapper">
+<header class="main-header content-wrapper row">
 
   <input type="checkbox" id="menu-checkbox" />
 
-  <nav class="center-wrapper nav-main">
+  <nav class="center-wrapper nav-main navbar-fixed-top">
 
     <a class="blog-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
@@ -12,8 +12,9 @@
       {% endif %}
     {% endfor %}
 
-    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
-
+    <a href="#" data-toggle="modal" data-target="#contactModal">Contact</a>
+<!--     <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+ -->
     <label for="menu-checkbox" class="toggle-button" data-open="☰" data-close="☰" onclick></label>
   </nav>
 

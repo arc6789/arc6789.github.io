@@ -198,8 +198,6 @@ main {
 .index-page {
   position: relative;
   &:after {
-    content: "***";
-    position: absolute;
     margin-top: 1em;
     width: 100px;
     left: 50%;
