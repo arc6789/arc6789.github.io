@@ -9,8 +9,5 @@ tags: 'jekyll'
 author: redVi
 link: https://blooming-gorge-66083.herokuapp.com/
 roles: Design, Development
-tools: Tumblr Development Platform
+tools: Node.js, Express framework, Handlebars, Heroku (for deployment)
 ---
-
-Tumblr theme development in progress. All colors, fonts, backgrounds customizable. Code is open source.
-Code so far
