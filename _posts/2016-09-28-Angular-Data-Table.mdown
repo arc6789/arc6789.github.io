@@ -9,7 +9,8 @@ categories: posts
 tags: 'jekyll'
 author: redVi
 link: http://quiet-earth-48469.herokuapp.com/
-roles: Design, Development, Graphics
+code: https://github.com/arc6789/js-data-table
+roles: Design, Development
 tools: Tumblr Development Platform
 ---
 

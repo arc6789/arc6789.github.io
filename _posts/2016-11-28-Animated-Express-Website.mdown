@@ -8,6 +8,7 @@ categories: posts
 tags: 'jekyll'
 author: redVi
 link: https://blooming-gorge-66083.herokuapp.com/
+code: https://github.com/arc6789/animated-express-handlebars
 roles: Design, Development
 tools: Node.js, Express framework, Handlebars, Heroku (for deployment)
 ---

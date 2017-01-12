@@ -13,12 +13,26 @@ summary: "main page"
 	  <div class="article_content col-lg-4">
     	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     	<p class="summary">{{ post.summary }}</p>
-    	<p class="link"><strong>View live at: <a href="{{ post.link }}">{{ post.link }}</a></strong></p>
+      {% if post.link and post.code %}
+        <p><strong><a href="{{ post.link }}">View LIVE</a> | <a href="{{ post.code }}"> View CODE</a></strong></p>
+      {% elsif post.link %}
+        <p><strong>View live at: <a href="{{post.link}}">{{post.link}}</a></strong></p>
+      {% elsif post.code %}
+        <p><strong>View code: <a href="{{post.code}}">{{post.code}}</a></strong></p>
+      {% endif %}
     	<p clas="roles"><strong>Roles: {{ post.roles }}</strong></p>
     	<p class="tools"><strong>Tools: {{ post.tools }}</strong></p>
     </div>
   </article>
 {% endfor %}
+
+
+
+<!--     {% for my_page in site.pages %}
+      {% if my_page.active %}
+        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+      {% endif %}
+    {% endfor %} -->
  
 <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-md">
