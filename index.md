@@ -15,11 +15,11 @@ summary: "main page"
     	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     	<p class="summary">{{ post.summary }}</p>
       {% if post.link and post.code %}
-        <p><strong><a href="{{ post.link }}">View LIVE</a> | <a href="{{ post.code }}"> View CODE</a></strong></p>
+        <p><strong><a href="{{ post.link }}" target="_blank">View LIVE</a> | <a href="{{ post.code }}" target="_blank"> View CODE</a></strong></p>
       {% elsif post.link %}
-        <p><strong>View live at: <a href="{{post.link}}">{{post.link}}</a></strong></p>
+        <p><strong>View live at: <a href="{{post.link}}" target="_blank">{{post.link}}</a></strong></p>
       {% elsif post.code %}
-        <p><strong>CODE: <a href="{{post.code}}">{{post.code}}</a></strong></p>
+        <p><strong>CODE: <a href="{{post.code}}" target="_blank">{{post.code}}</a></strong></p>
       {% endif %}
     	<p clas="roles"><strong>Roles: {{ post.roles }}</strong></p>
     	<p class="tools"><strong>Tools: {{ post.tools }}</strong></p>
@@ -35,26 +35,3 @@ summary: "main page"
       {% endif %}
     {% endfor %} -->
  
-<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-md">
-      <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title text-center" id="myModalLabel">Contact Me</h3>
-      </div>
-      <div class="modal-body">
-        <div id="text">
-            <p> The best way to contact me is to email me at <a href="mailto:anusuyarc89@gmail.com">anusuyarc89@gmail.com</a></p><br/>
-            <p> But you can also reach me at my following sites:</p>
-        </div>
-        <div id="contact-icons">
-          <a href="https://www.linkedin.com/in/anusuyaroychoudhury" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-          <a href="https://github.com/arc6789" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn" data-dismiss="modal">Close</button>
-      </div>      
-      </div>
-    </div>
-</div>

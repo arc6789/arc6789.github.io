@@ -10,5 +10,5 @@ tags: 'jekyll'
 author: Anusuya Choudhury
 code: https://github.com/arc6789/tumblr-theme
 roles: Design, Development, Graphics
-tools: Tumblr's Development Platform, HTML, CSS, JavaScript
+tools: Tumblr's Development Platform, HTML5, CSS, JavaScript
 ---

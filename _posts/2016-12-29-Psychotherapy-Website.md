@@ -9,6 +9,6 @@ categories: posts
 author: Anusuya Choudhury
 link: www.melissapirwani.com
 roles: Design, Development, Graphics
-tools: Bootstrap, CushyCMS, HTML, Sass/CSS, PHP
+tools: Bootstrap, CushyCMS, HTML5, Sass/CSS, PHP
 ---
 

@@ -3,11 +3,11 @@ bg: "hybridmap.png"
 layout: post
 title:  "Hybrid Point UI"
 crawlertitle: "Locate your Meetup"
-summary: "This UI was inspired by some of the projects I had worked on during a previous internship at a company that makes software for location and tracking. Hybrid Point Map is a web application that is a work in progress using Google Maps API."
+summary: "This web app was one of my first web development projects. It is very similar to some of the projects I had worked on during my first job right out of college working at a company that makes software for location and tracking. I was tasked to build a UI for a company demo at FCC. This web UI uses HTML4, CSS, JavaScript, jQuery, and Google Maps API. This was the project that started my love for web development and while I am tempted to fix so much of the codebase and design, I prefer to leave this project as is."
 date: 2013-04-28 23:09:47 +0700
 categories: posts
 tags: 'jekyll'
 author: Anusuya Choudhury
 roles: Design and Development
-tools: Google Maps API
+tools: Google Maps API, HTML4, CSS, JavaScript, jQuery
 ---
