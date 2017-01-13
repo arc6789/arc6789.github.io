@@ -1,6 +1,6 @@
 ---
 layout: default
-crawlertitle: "Jekyll blog"
+crawlertitle: "Anusuya Choudhury | Portfolio"
 title: "Home"
 summary: "main page"
 ---
