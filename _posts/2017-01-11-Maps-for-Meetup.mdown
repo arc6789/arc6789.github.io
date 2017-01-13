@@ -7,27 +7,15 @@ summary: "This project maps the location of upcoming events for any particular M
 date: 2016-05-11 23:09:47 +0700
 categories: posts
 tags: 'jekyll'
-author: redVi
+author: Anusuya Choudhury
 link: /../gdi-maps/index.html
 code: https://github.com/arc6789/GDI-Maps
 roles: Design and Development
 tools: Meetup's RESTful Api, Mapbox.js, CartoCSS (to stylize map), Bootstrap framework, GeoJSON
 ---
 
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Anusuya Roy Choudhury" />
-  <title>Maps</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
-  <link rel="stylesheet" href="css/styles.css">    
-</head>
-
 <body>
-  <div class="container">
+  <div class="container meetup-map">
     <div class="row1 row map-row">
           <section>
             <a name="gmap"></a>
@@ -77,9 +65,4 @@ tools: Meetup's RESTful Api, Mapbox.js, CartoCSS (to stylize map), Bootstrap fra
       <a href="../index.html"><button> close</button></a>
     </div>
   </div>
-  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/meetup-map.js"></script>
-
 </body>
-</html>

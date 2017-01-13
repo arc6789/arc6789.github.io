@@ -7,7 +7,7 @@ summary: "This UI was inspired by some of the projects I had worked on during a 
 date: 2013-04-28 23:09:47 +0700
 categories: posts
 tags: 'jekyll'
-author: redVi
+author: Anusuya Choudhury
 roles: Design and Development
 tools: Google Maps API
 ---

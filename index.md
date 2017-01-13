@@ -5,6 +5,7 @@ title: "Home"
 summary: "main page"
 ---
 
+<h2 class="col-lg-12 text-center page-title">PORTFOLIO</h2>
 {% for post in site.posts limit: 6 %}
   <article class="index-page row">
   	<div class="article_img col-lg-8">
@@ -18,7 +19,7 @@ summary: "main page"
       {% elsif post.link %}
         <p><strong>View live at: <a href="{{post.link}}">{{post.link}}</a></strong></p>
       {% elsif post.code %}
-        <p><strong>View code: <a href="{{post.code}}">{{post.code}}</a></strong></p>
+        <p><strong>CODE: <a href="{{post.code}}">{{post.code}}</a></strong></p>
       {% endif %}
     	<p clas="roles"><strong>Roles: {{ post.roles }}</strong></p>
     	<p class="tools"><strong>Tools: {{ post.tools }}</strong></p>
