@@ -12,8 +12,13 @@ summary: "main page"
 		  <img class="img-thumbnail img-responsive" style="width:100%; margin:0" src="assets/images/{{post.bg}}">
 	  </div>
 	  <div class="article_content col-lg-4">
-    	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    	<p class="summary">{{ post.summary }}</p>
+    	<!-- <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> --> <!-- Temp -->
+      <h2>{{ post.title }}</h2>
+      {% if post.summary %}
+    	 <p class="summary">{{ post.summary }}</p>
+      {% else %}
+        <p class="summary">{{ post.content }}</p>
+      {% endif %}
       {% if post.link and post.code %}
         <p><strong><a href="{{ post.link }}" target="_blank">View LIVE</a> | <a href="{{ post.code }}" target="_blank"> View CODE</a></strong></p>
       {% elsif post.link %}
@@ -26,7 +31,6 @@ summary: "main page"
     </div>
   </article>
 {% endfor %}
-
 
 
 <!--     {% for my_page in site.pages %}

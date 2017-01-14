@@ -1,21 +1,18 @@
----
-bg: "map.jpg"
-layout: post
-title: "Maps for Meetup"
-crawlertitle: "Locate your Meetup"
-summary: "This project maps the location of upcoming events for any particular Meetup group on a Mapbox map. Additionally also provides certain information like name, address, date and time of each event. The idea is to integrate this project into Girl Develop It - San Jose Chapter's website as well as to develop a widget that can be embeded for any website of any Meetup group."
-date: 2016-05-11 23:09:47 +0700
-categories: posts
-tags: 'jekyll'
-author: Anusuya Choudhury
-link: /posts/Maps-for-Meetup/
-code: https://github.com/arc6789/GDI-Maps
-roles: Design and Development
-tools: Meetup's RESTful Api, Mapbox.js, CartoCSS (to stylize map), Bootstrap framework, GeoJSON
----
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Anusuya Roy Choudhury" />
+  <title>Maps</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
+  <link rel="stylesheet" href="css/styles.css">    
+</head>
 
 <body>
-  <div class="meetup-map">
+  <div class="container">
+
     <div class="row1 row map-row">
           <section>
             <a name="gmap"></a>
@@ -32,6 +29,7 @@ tools: Meetup's RESTful Api, Mapbox.js, CartoCSS (to stylize map), Bootstrap fra
             </div>
           </section>
     </div><!--End of MAps!-->
+
     <div class="row input-field">
       <div class="col-lg-4 col-md-4 col-sm-4">
         Meetup Key: <input type="text" id="meetup-key" style="width:130px" />
@@ -46,6 +44,7 @@ tools: Meetup's RESTful Api, Mapbox.js, CartoCSS (to stylize map), Bootstrap fra
         <button type="button" id="clickme" onclick="awesomeClick()">Submit</button>
       </div>
     </div>
+
     <div class="row instructions-row">
       <div class="col-lg-12">
         <h3>How to use this map:</h3>
@@ -61,8 +60,14 @@ tools: Meetup's RESTful Api, Mapbox.js, CartoCSS (to stylize map), Bootstrap fra
         </ul>
       </div>
     </div>
+
     <div class="row button-footer-row">
-      <a href="/../../index.html"><button> close</button></a>
+      <a href="../index.html"><button> close</button></a>
     </div>
   </div>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/meetup-map.js"></script>
+
 </body>
+</html>
