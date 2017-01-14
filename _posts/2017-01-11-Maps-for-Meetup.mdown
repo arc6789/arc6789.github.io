@@ -15,7 +15,7 @@ tools: Meetup's RESTful Api, Mapbox.js, CartoCSS (to stylize map), Bootstrap fra
 ---
 
 <body>
-  <div class="container meetup-map">
+  <div class="meetup-map">
     <div class="row1 row map-row">
           <section>
             <a name="gmap"></a>
@@ -62,7 +62,7 @@ tools: Meetup's RESTful Api, Mapbox.js, CartoCSS (to stylize map), Bootstrap fra
       </div>
     </div>
     <div class="row button-footer-row">
-      <a href="../index.html"><button> close</button></a>
+      <a href="/../../index.html"><button> close</button></a>
     </div>
   </div>
 </body>
