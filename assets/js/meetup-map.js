@@ -1,4 +1,4 @@
-(function(){
+
 L.mapbox.accessToken = 'pk.eyJ1IjoiYXJjNjc4OSIsImEiOiIyUU9lcmdJIn0.nZKA7rHTaVFz-M2oTt2ZMA';
 var map = L.mapbox.map('map', 'arc6789.78f63ca4').setView([37.7833, -122.4167], 13);  /*examples.map-i86nkdio*/ 
 var geocoder = L.mapbox.geocoder('mapbox.places');//
@@ -29,7 +29,7 @@ function awesomeClick(){
     }
 
     $(document).ready(function(){
-          
+      console.log("hi");
       var MEETUP_URL = "http://api.meetup.com/2/events?key="+meetup_key+"&offset=0&format=json&limited_events=False&group_urlname="+meetup_event+"&sign=true&photo-host=public&page=20&fields=&order=time&desc=false&status=upcoming&callback=";
 
       function convert(epoch){
@@ -90,9 +90,5 @@ function awesomeClick(){
 
     });
 }
-
-})();
-
-
 
 

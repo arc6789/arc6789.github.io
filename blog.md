@@ -30,6 +30,7 @@ You can find the source code for Jekyll at
   {{ work.output }}
 {% endfor %} -->
 
+
 {% for post in site.posts limit: 6 %}
   <article class="index-page row">
   	<div class="article_img col-lg-8">
