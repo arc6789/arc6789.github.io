@@ -37,7 +37,7 @@ footer {background-color: rgba(169,169,169,0.8) !important;}
 	text-decoration: overline;
 }
 
-.fa {
+footer .fa {
 	font-size: 13px;
 	margin-left: 30px
 }
@@ -51,4 +51,31 @@ footer.content-wrapper {
 #contact-modal:focus {
 	 
     outline: 0;
+}
+
+#contactModal{ 
+  .modal-content{
+    background-color:#414247;
+  }
+  .modal-body p a{
+    text-decoration:none;
+  }
+  .modal-body p a:hover{
+    color:#7f60b2;
+  }
+  .modal-footer{
+    border:none
+  }
+  .modal-body a i{
+    text-decoration: none; 
+    color:white; 
+    font-size: 27px;
+    margin:0 6px;
+  }
+  .modal-body a i:hover{
+    color:#7f60b2
+  }
+  .modal-footer button:hover{
+    color:#7f60b2
+  }
 }
