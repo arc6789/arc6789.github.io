@@ -14,11 +14,15 @@
 		font-weight: bold 
 	}
 }
+.blog-logo {
+  letter-spacing: 0.08em;
+  font-size: 20px !important
+}
 
 .nav-main, .blog-footer {
 	width: 100%;
 	max-width: 100%;
-	background-color: rgba(169,169,169,0.8);
+	background-color: rgba(169,169,169,0.9);
 }
 
 .blog-footer p{
@@ -251,3 +255,6 @@ footer.content-wrapper {
     }
   }
 }
+
+
+

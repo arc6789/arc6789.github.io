@@ -6,12 +6,11 @@ crawlertitle: "Anusuya Choudhury | About"
 permalink: /about/
 summary: "About this blog"
 active: about
+published: true
 ---
 
 # Anusuya Choudhury
-
 #### Front End/UI Developer
-
 ##### `I design and develop front end for software`
 
 
@@ -26,3 +25,11 @@ You can find the source code for the Jekyll new theme at:
 You can find the source code for Jekyll at
 {{site.github_username}} /
 [jekyll](https://github.com/jekyll/jekyll)
+
+#### History
+
+This website started out as a plain HTML, CSS, JavaScript site. However maintaining most of the markup 
+
+#### Jekyll
+This site is now built on Jekyll using the Voyager theme, the design for which has been considerably modified to look similar to my previous website. It is version controlled using Git and is hosted on GitHub Pages. You can find the code to this site here. 
+

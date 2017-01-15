@@ -7,13 +7,13 @@ summary: "main page"
 
 <h2 class="col-lg-12 text-center page-title">PORTFOLIO</h2>
 {% for post in site.posts limit: 6 %}
-  <article class="index-page row">
+  <article class="index-page">
   	<div class="article_img col-lg-8">
 		  <img class="img-thumbnail img-responsive" style="width:100%; margin:0" src="assets/images/{{post.bg}}">
 	  </div>
 	  <div class="article_content col-lg-4">
     	<!-- <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> --> <!-- Temp -->
-      <h2>{{ post.title }}</h2>
+      <h2 class="text-center">{{ post.title }}</h2>
       {% if post.summary %}
     	 <p class="summary">{{ post.summary }}</p>
       {% else %}

@@ -1,10 +1,11 @@
 <!-- ---
 layout: page
 permalink: /posts/
- title: "Archive"
+title: "Archive"
 crawlertitle: "All articles"
 summary: "Posts about jekyll"
 active: archive
+published: false
 ---
 
 {% for tag in site.tags %}
@@ -30,5 +31,4 @@ active: archive
 </ul>
 
 
-{% endfor %}
- -->
+{% endfor %} -->
