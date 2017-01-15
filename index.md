@@ -4,8 +4,12 @@ crawlertitle: "Anusuya Choudhury | Portfolio"
 title: "Home"
 summary: "main page"
 ---
-
-<h2 class="col-lg-12 text-center page-title">PORTFOLIO</h2>
+<!-- <div style="width:100; padding:50px; background-color:black; color: white; text-align:center; margin-bottom:50px; font-size: 80%; letter-spacing: 0.1em">
+  <h1>ANUSUYA CHOUDHURY</h1>
+  <h2>FRONT END/UI DEVELOPER</h2>
+  <h3>I design and develop Front End for UI</h3>
+</div> -->
+<h2 class="col-lg-12 text-center page-title">DEVELOPMENT</h2>
 {% for post in site.posts limit: 6 %}
   <article class="index-page">
   	<div class="article_img col-lg-8">

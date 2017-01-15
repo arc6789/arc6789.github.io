@@ -6,30 +6,28 @@ crawlertitle: "Anusuya Choudhury | About"
 permalink: /about/
 summary: "About this blog"
 active: about
-published: true
+published: false
 ---
 
-# Anusuya Choudhury
-#### Front End/UI Developer
-##### `I design and develop front end for software`
+# Anusuya Choudhury 
+## Front End/UI Developer
+### I design and develop front end for software
+
+I enjoy writing. For many of my projects I design myself as wel
+
+When I am not doing any of the above I am probably on my search for the next creative project or exploring the nearest coffee shop in my city. I can occasionally be seen sitting near a pool and knitting as well.
 
 
-# Site
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at:
-{{site.twitter_username}} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at
-{{site.github_username}} /
-[jekyll](https://github.com/jekyll/jekyll)
 
-#### History
 
-This website started out as a plain HTML, CSS, JavaScript site. However maintaining most of the markup 
 
-#### Jekyll
-This site is now built on Jekyll using the Voyager theme, the design for which has been considerably modified to look similar to my previous website. It is version controlled using Git and is hosted on GitHub Pages. You can find the code to this site here. 
+#### About this Site
+
+This site is built on [Jekyll](https://github.com/jekyll/jekyll) using the [Voyager](http://www.unix-lab.org/voyager/) theme, the design for which has been modified to fit my vision of my website. It uses flexbox as well Bootstrap for a design framework. It is version controlled using Git and is hosted on GitHub Pages. You can find the code to this site at this [link](https://github.com/arc6789/arc6789.github.io). 
+
+This website has been built and rebuilt multiple times. Code for my old site and its Git history has been preserved as well. Souce code can be found [here](https://github.com/arc6789/_old-website) 
+
 

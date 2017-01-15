@@ -155,6 +155,10 @@ footer.content-wrapper {
     height:450px; 
     border:2px solid black;
     overflow:scroll;
+    a {
+      color: #337ab7
+    }
+
   } /*#E8E8E8*/
 
   h2{
@@ -256,5 +260,17 @@ footer.content-wrapper {
   }
 }
 
+.about_kramdown {
+  h1,h2,h3 {
+    text-align: center
+  }
+}
 
-
+  .page {
+    padding-top: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    h1, h2, h3, h4, h5 {
+      text-align: center;
+    }
+  }
